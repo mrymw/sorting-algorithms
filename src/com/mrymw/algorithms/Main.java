@@ -11,6 +11,9 @@ public class Main {
         int target = 7;
          bubbleSort(array);
         reverseBubbleSort(array);
-        System.out.println(binarySearch(sortedArray, target));
+        //System.out.println(binarySearch(sortedArray, target));
+        String[] arrays = {"apples", "bananas", "grapes", "pineapple"};
+        String targets = "grapes";
+        System.out.println(BST.binarySearchString(arrays, targets));
     }
 }
